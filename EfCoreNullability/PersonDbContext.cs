@@ -7,5 +7,5 @@ public class PersonDbContext : DbContext
     {
     }
 
-    public DbSet<Person> Persons { get; set; }
+    public DbSet<Person> Persons => Set<Person>();
 }
